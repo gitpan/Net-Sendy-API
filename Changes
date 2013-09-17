@@ -1,0 +1,10 @@
+Revision history for Perl extension Sendy::API.
+
+0.01  Sat Sep 14 01:04:26 2013
+	- original version; created by h2xs 1.23 with options
+		-A -X -n Sendy::API
+
+0.02  Tue Sep 17
+	- first CPAN release of the library
+
+
