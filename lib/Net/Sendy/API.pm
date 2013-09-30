@@ -1,13 +1,12 @@
 package Net::Sendy::API;
 
-use 5.014002;
 use strict;
 use warnings;
 use Carp ('croak');
 use LWP::UserAgent;
 use URI;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub new {
     my $class = shift;
@@ -130,7 +129,7 @@ Perl extension to interact with a sendy.co instance.
 
 =head1 DESCRIPTION
 
-This is an interface to http://www.sendy.co/api. As of this writing this is the comlete implementation of the Sendy API.
+This is an interface to http://www.sendy.co/api. As of this writing this is the complete implementation of the Sendy API.
 
 =head1 METHODS
 
